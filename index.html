@@ -3,20 +3,64 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Hima sri Portfolio</title>
-    <meta name="keywords" content="portfolio, resume, student, technology, programming, coding,professional">
-    <meta name="author" content=" Pakalapati Hima sri">
+    <title>Hima Sri Portfolio</title>
+    <meta name="keywords" content="portfolio, resume, student, technology, programming, coding, professional">
+    <meta name="author" content="Pakalapati Hima Sri">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-    <link rel="icon" href="images.png" type="image/icon type">
+    <link rel="icon" href="C:\Users\pakal\Desktop\images.png" type="image/icon type">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      .projects {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+      }
+      .projects .heading {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+      }
+      .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      .project-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .project-card h3 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      .project-card p {
+        font-size: 14px;
+        margin-bottom: 15px;
+        color: #666;
+      }
+      .project-card .btn {
+        padding: 10px 15px;
+        background-color: #0073e6;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .project-card .btn:hover {
+        background-color: #005bb5;
+      }
+    </style>
   </head>
   <body>
     <header class="header">
-      <a href="" class="logo">PAKALAPATI<span> HIMA SRI</span></a>
+      <a href="#" class="logo">PAKALAPATI<span> HIMA SRI</span></a>
       <div class="menu">
         <i class="fa fa-bars" aria-hidden="true"></i>
       </div>
@@ -24,6 +68,7 @@
         <a href="#Home">Home</a>
         <a href="#Education">Education</a>
         <a href="#skill">Skills</a>
+        <a href="#projects">Projects</a>
         <a href="#Contact">Contact</a>
       </nav>
     </header>
@@ -31,111 +76,130 @@
     <section class="home" id="Home">
       <div class="content">
         <h1>Hi, it's <span> PAKALAPATI HIMA SRI</span></h1>
-        <h3 class="text-animation">i'm <span></span></h3>
+        <h3 class="text-animation">I'm <span></span></h3>
         <p>
-          I'm a passionate and driven III year Data Science student
-          with a strong foundation in web development and a keen interest
-          in problem-solving. I've honed my coding skills by tackling over
-          200 challenges on platforms like Codechef and HackerRank
+          Driven Aspiring Data Analyst, leveraging Python (Pandas, NumPy) for data analysis,
+          and possessing strong problem-solving abilities demonstrated through
+          200+ solutions on LeetCode, CodeChef, and HackerRank.
         </p>
         <div class="icons">
-            <a href="https://www.linkedin.com/in/himasri38" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/himasri-24" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-            <a href="mailto:pakalapatihimasri@gmail.com" title="Send email">
-              <i class="fas fa-envelope" aria-hidden="true"></i>
-            </a>
+          <a href="https://www.linkedin.com/in/himasri38" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/himasri-24" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:pakalapatihimasri@gmail.com" title="Send email"><i class="fas fa-envelope"></i></a>
         </div>
         <div class="flex-btn">
-            
-            <a href="images/Hima Sri_Pakalapati_resume.pdf" class="btn" download>Resume</a>
+          <a href="images/Hima%20Sri_Pakalapati_resume.pdf" class="btn" download>Resume</a>
         </div>
       </div>
-      <img src="images\Hima Sri_background.jpg" alt="">
+      <img src="images/Hima Sri_background.jpg" alt="">
     </section>
 
     <section class="education" id="Education">
-      <h2 class="heading">education</h2>
+      <h2 class="heading">Education</h2>
       <div class="timeline-items">
         <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2020</div>
-        <div class="timeline-content">
-          <h3>high School</h3>
-          <p>I have completed my High school from SRI SAI HIGH SCHOOL <span>Janganagudem,Eluru,Andhra Pradesh</span> with a CGPA 8.3</p>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <p>i have completed my High school from SRI SAI HIGH SCHOOL <span>Janganagudem, Eluru, Andhra Pradesh</span> with a CGPA 8.3</p>
+          </div>
         </div>
-      </div>
-          <div class="timeline-item">
+        <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-date">2022</div>
           <div class="timeline-content">
             <h3>Intermediate</h3>
-            <p>I have completed my Intermediate in  SRI CHAITANYA Junior College Enkepadu,Vijayawada,Andhra Pradesh with a CGPA 8.8</p>
+            <p>I have completed my Intermediate in SRI CHAITANYA Junior College, Enkepadu, Vijayawada, Andhra Pradesh with a CGPA 8.8</p>
           </div>
         </div>
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2024</div>
+          <div class="timeline-date">2025</div>
           <div class="timeline-content">
-            <h3>B.tech</h3>
-            <p>I am currently pursuing my b.tech in Vignan's Nirula Institute of Technology and Science for Women <span>Guntur,Andhra Pradesh </span>with a CGPA 8.6</p>
+            <h3>B.Tech</h3>
+            <p>I am currently pursuing my B.Tech in Vignan's Nirula Institute of Technology and Science for Women <span>Guntur, Andhra Pradesh</span> with a CGPA 8.6</p>
+          </div>
+        </div>
       </div>
-    </div>
-      
     </section>
-    
 
-  
-     <!-- skills -->
-     <section class="skills">
+    <section class="skills">
       <div class="container" id="skill">
         <h1 class="heading">Technical Skills</h1>
         <div class="technical-bars">
-            
-            <li><h3><i class='bx bxl-html5'><span class="name">HTML</span></i></h3></li>
-              <span class="bar"><span class="html"></span></span>
-
-            <li><h3><i class='bx bxl-css3'><span class="name">CSS</span></i></h3></li>
-              <span class="bar"><span class="css"></span></span>
-            <li><h3><i class='bx bxl-java'><span class="name">Java</span></i></h3></li>
-              <span class="bar"><span class="java"></span></span>
+          <li><h3><i class='bx bxl-html5'><span class="name">HTML</span></i></h3></li>
+          <span class="bar"><span class="html"></span></span>
+          <li><h3><i class='fas fa-database fa-4x' ><span class="name">SQL</span></i></h3></li>
+          <span class="bar"><span class="sql"></span></span>
+          <li><h3><i class='fas fa-file-excel fa-4x' ><span class="name">Excel</span></i></h3></li>
+          <span class="bar"><span class="excel"></span></span>
+          <li><h3><i class='bx bxl-java'><span class="name">Java</span></i></h3></li>
+          <span class="bar"><span class="java"></span></span>
+          <li><h3><i class='bx bxl-python'><span class="name">Python</span></i></h3></li>
+          <span class="bar"><span class="Python"></span></span>
         </div>
       </div>
-     </section>
+    </section>
 
-  
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="projects-container">
 
-      <section class="contact" id="Contact">
-        <h2 class="heading">Contact <span>me</span></h2>
-        <div class="form-container">
-          <form action="#" method="get">
-            <div class="inputs">
-              <input type="text" placeholder="full name" class="input">
-              <input type="email" placeholder="your email-ID" class="input">
-              <input type="number" placeholder="Your mobile N.O" class="input">
-              <input type="Text" placeholder="Your designation" class="input">
-            </div>
-            <div class="text">
-              <textarea placeholder="Your Message"></textarea>
-              <a href="#" class="btn">Send Message</a>
-            </div>
-          </form>
+        <div class="project-card">
+          <h3>Resume Builder Web App</h3>
+          <p>Developed a dynamic resume builder using Node.js, Express, MongoDB, and Tailwind CSS. Users can create, save, and download custom resumes in real-time.</p>
+          <a href="https://github.com/himasri-24/resume-builder" target="_blank" class="btn">View Code</a>
         </div>
-      </section>
 
-        <footer class="footer">
-          <div class="icons">
-            <a href="https://www.linkedin.com/in/himasri38" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/himasri-24" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-            <a href="mailto:pakalapatihimasri@gmail.com" title="Send email">
-              <i class="fas fa-envelope" aria-hidden="true"></i>
-            </a>
+        <div class="project-card">
+          <h3>Material_os_Web</h3>
+          <p>The concepts that involves in B.tech , i have developed all the materials that are required for the all groups that are present in B.tech</p>
+          <a href="https://github.com/himasri-24/material-OS-web" target="_blank" class="btn">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This responsive portfolio website was created using HTML, CSS, JavaScript, and Boxicons to showcase my education, skills, and contact details.</p>
+          <a href="https://github.com/himasri-24/Professional-portfolio" target="_blank" class="btn">View Code</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact" id="Contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div class="form-container">
+        <form action="#" method="get">
+          <div class="inputs">
+            <input type="text" placeholder="Full Name" class="input">
+            <input type="email" placeholder="Your Email ID" class="input">
+            <input type="number" placeholder="Your Mobile No." class="input">
+            <input type="text" placeholder="Your Designation" class="input">
           </div>
-          <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#Education">Education</a>
-            <a href="#Contact">Contact</a>
-          </nav>
-          <div class="credit"><p><i class="fa fa-copyright" aria-hidden="true"></i> PAKALAPATI HIMA SRI <span>||</span> all rights reserved August 2024</p></div>
-        </footer>
+          <div class="text">
+            <textarea placeholder="Your Message"></textarea>
+            <a href="mailto:pakalapatihimasri@gmail.com" class="btn">Send Message</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/himasri38" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/himasri-24" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:pakalapatihimasri@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Education">Education</a>
+        <a href="#skill">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+      <div class="credit"><p>&copy; PAKALAPATI HIMA SRI || All rights reserved June 2025</p></div>
+    </footer>
   </body>
 </html>
